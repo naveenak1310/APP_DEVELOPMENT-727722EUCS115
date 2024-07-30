@@ -1,0 +1,70 @@
+/* Register.css */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\white\Music\hall booking2\hallbooking\src\b1.jpg');
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the image */
+    min-height: 100vh;
+
+  }
+  
+  .register-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .register-form h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .register-form .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .register-form .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register-form .register-button {
+     width: 100%;
+    padding: 12px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .register-form .register-button:hover {
+    background: #45a049;
+  }
+  
+  .register-form .error {
+    color: #ff0000;
+    margin-bottom: 1rem;
+  }
+  
+  .register-form .success {
+    color: #4caf50;
+    margin-bottom: 1rem;
+  }
+  

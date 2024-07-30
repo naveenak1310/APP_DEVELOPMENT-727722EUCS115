@@ -1,0 +1,65 @@
+/* src/components/SuccessPage.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.success-page {
+  padding: 40px;
+  margin: 20px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 100vh;
+  max-width: 800px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.success-page h2 {
+  color: #4CAF50;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.success-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.success-page li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.success-page p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555555;
+}
+
+.success-page .highlight {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.success-page button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.success-page button:hover {
+  background-color: #45a049;
+}

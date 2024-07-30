@@ -1,0 +1,120 @@
+/* src/components/ProfilePage.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #0F2027;  /* Fallback color */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* Standard syntax */
+}
+
+.profile-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-height: calc(100vh - 40px); /* Adjusted to fill viewport height minus footer space */
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.profile-header p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #fff0f0;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-details .detail {
+    margin-bottom: 15px;
+}
+
+.profile-details .detail h2 {
+    font-size: 1.4em;
+    color: #ffeeee;
+    margin-bottom: 10px;
+}
+
+.profile-details .detail p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.profile-actions {
+    margin-top: auto; /* Push the action buttons to the bottom of the profile page */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-actions button:hover {
+    background-color: #0056b3;
+}
+
+.profile-actions button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.profile-footer {
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: auto; /* Ensure the footer sticks to the bottom if content is shorter */
+}
+
+@media (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-header img {
+        margin-bottom: 20px;
+    }
+}

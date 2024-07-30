@@ -1,0 +1,105 @@
+/* src/components/AdminPage.css */
+.admin-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .admin-navbar {
+    background: #343a40;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-navbar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .admin-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .admin-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .admin-content {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .admin-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .admin-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .admin-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .admin-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .admin-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .admin-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .admin-card-button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .admin-card-button:hover {
+    background: #0056b3;
+  }
+  
+  .admin-footer {
+    background: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
